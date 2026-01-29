@@ -50,9 +50,40 @@ def draw_y_coordinates(x,y):
     t.penup()
     t.goto(0,0)    
 
+def draw_y(x,y):
+    t.penup()
+    t.goto(x, y)
+    t.pendown()
+    t.left(135)
+    t.forward(50)
+
+    t.left(45)
+    t.forward(15)
+
+    t.left(135)
+    t.forward(60)
+
+    t.right(45)
+    t.forward(50)
+
+    t.left(90)
+    t.forward(20)
+
+    t.left(90)
+    t.forward(50)
+
+    t.right(45)
+    t.forward(60)
+
+    t.left(135)
+    t.forward(15)
+
+    t.left(45)
+    t.forward(50)
 
 
-draw_y_coordinates(x,y)
+#draw_y_coordinates(x,y)
+draw_y(x,y)
 
 
 turtle.done()
